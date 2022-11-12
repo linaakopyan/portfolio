@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
+    <script defer src="portfolio.js"></script>
+    <title>Welcome</title>
+</head>
+<body>
+<header>
+    <nav class="full_page">
+        <ul class="main-menu">
+            <li><a href="#project-slider">проекты</a></li>
+            <li><a href="#form">оставить заявку</a></li>
+            <li><a href="#contacts">контакты</a></li>
+            <li><a target="_blank" href="bonus_page.html">бонус</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="wrapper">
+    <input type="checkbox" id="check_menu"/>
+    <label for="check_menu">Меню</label>
+
+    <div class="line line_1"></div>
+    <div class="line line_2"></div>
+    <div class="line line_3"></div>
+    <div class="line line_4"></div>
+    <nav class="burger">
+        <a href="#project-slider">проекты</a>
+        <a href="#form">заявка</a>
+        <a href="#contacts">контакты</a>
+        <a href="bonus_page.html">бонус</a>
+    </nav>
+</div>
+
+<section class="main_page">
+    <div class="main_page__inner">
+        <div class="main_page_left">
+            <div class="main_page__header">
+                <h2 class="light-header">Привет! Я - Front-end разработчик!</h2>
+            </div>
+            <div class="main_page__text">
+                <p>На связи Алина! <br/> На этом сайте ты можешь посмотреть мои проекты, оставить сообщение и найти меня
+                    в социальных сетях!
+                </p>
+            </div>
+
+            <div class="main_page__contacts">
+                <p>1 (234) 56 789 09 <br/> pochta@pochta.ru</p>
+            </div>
+
+            <div class="main_page__socials">
+                <div class="dropdown">
+                    <img class="socials"
+                         src="./img/vk_icon.png"
+                         alt="vk">
+                    <div class="dp-content">
+                        <p>пока не работает</p>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <img class="socials"
+                         src="./img/whatsapp_icon.png"
+                         alt="whatsapp">
+                    <div class="dp-content">
+                        <p>неа</p>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <img class="socials"
+                         src="./img/github_icon.png"
+                         alt="github">
+                    <div class="dp-content">
+                        <p>тоже пусто</p>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <img class="socials"
+                         src="./img/behance_icon.png"
+                         alt="behance">
+                    <div class="dp-content">
+                        <p>ну, ничего себе</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cv-btn">
+                <a class="cv" target="_blank" href="./cv%20Акопян%20Лина.pdf">Резюме</a>
+            </div>
+
+        </div>
+
+        <div class="main-photo">
+            <img src="./img/main-photo.jpg" alt="main photo">
+        </div>
+    </div>
+</section>
+
+<section id="project-slider" class="slider">
+    <h2 class="dark-header">Созданные мной проекты</h2>
+    <div class="slides">
+
+        <div class="project-slide">
+            <img class="slider-img show" src="./img/slide 1.jpg" alt="slide 1">
+            <div class="project-content">
+                <h3 class="project-title">Проект 1</h3>
+                <p class="project-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ducimus eius,
+                    esse et harum id impedit maxime natus nemo quas quibusdam rerum sit. Labore odio voluptatem
+                    voluptates! Esse, excepturi, vel.</p>
+                <div class="project-btn-group">
+                    <button class="project-btn github">Github</button>
+                    <button class="project-btn live">Перейти</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-slide">
+            <img class="slider-img" src="./img/slide 2.jpg" alt="slide 2">
+            <div class="project-content">
+                <h3 class="project-title">Проект 2</h3>
+                <p class="project-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ducimus eius,
+                    esse et harum id impedit maxime natus nemo quas quibusdam rerum sit. Labore odio voluptatem
+                    voluptates! Esse, excepturi, vel.</p>
+                <div class="project-btn-group">
+                    <button class="project-btn github">Github</button>
+                    <button class="project-btn live">Перейти</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-slide">
+            <img class="slider-img" src="./img/slide 3.jpg" alt="slide 3">
+            <div class="project-content">
+                <h3 class="project-title">Проект 3</h3>
+                <p class="project-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ducimus eius,
+                    esse et harum id impedit maxime natus nemo quas quibusdam rerum sit. Labore odio voluptatem
+                    voluptates! Esse, excepturi, vel.</p>
+                <div class="project-btn-group">
+                    <button class="project-btn github">Github</button>
+                    <button class="project-btn live">Перейти</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="buttons">
+        <input type="button" value="&larr;" class="btn slider__button__prev">
+        <input type="button" value="&rarr;" class="btn slider__button__next">
+    </div>
+</section>
+
+<section id="form" class="form">
+    <h2 class="dark-header">Оставь заявку и я свяжусь с тобой!</h2>
+    <form>
+        <input class="text name" type="text" placeholder="Имя">
+        <input class="text email" type="text" placeholder="Электронная почта">
+        <textarea placeholder="Несколько слов о проекте"></textarea>
+        <input class="f-btn" type="button" value="Отправить">
+    </form>
+    <div class="message">Заявка отправлена! <br> Дождись моего сообщения &#10084;</div>
+</section>
+
+<section id="contacts" class="contacts">
+    <h2 class="dark-header">Оставайся со мной на связи!</h2>
+    <div class="contact-list">
+
+        <div class="address contact-list__item">
+            <img src="./img/phone_ft_icon.png"
+                 alt="phone-icon">
+            <div class="contact-list__item__description">
+                <p class="heading">телефон</p>
+                <p class="text">1 (234) 56 789 09</p>
+            </div>
+        </div>
+
+        <div class="address contact-list__item">
+            <img src="./img/email_ft_icon.png"
+                 alt="email-icon">
+            <div class="contact-list__item__description">
+                <p class="heading">email</p>
+                <p class="text">pochta@pochta.ru</p>
+            </div>
+        </div>
+
+        <div class="address contact-list__item">
+            <img src="./img/address_ft_icon.png"
+                 alt="address-icon">
+            <div class="contact-list__item__description">
+                <p class="heading">адрес</p>
+                <p class="text">город, улица, дом</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>Позже я добавлю сюда что-то еще</p>
+    <div class="footer_socials">
+        <img class="footer_socials__item"
+             src="./img/twitter_icon.png"
+             alt="twitter">
+
+        <img class="footer_socials__item"
+             src="./img/pinterest_icon.png"
+             alt="pinterest">
+
+        <img class="footer_socials__item"
+             src="./img/linkedIn_icon.png"
+             alt="linkedIn">
+    </div>
+</footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

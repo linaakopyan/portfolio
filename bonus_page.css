@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    height: 100vh;
+    position: relative;
+    left: 10vw;
+}
+
+img {
+    height: 100vh;
+}
+
+.carousel-caption {
+    background: rgba(78, 82, 96, 0.42);
+}
